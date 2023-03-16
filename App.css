@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  margin-top: 2vh;
+  /* background-color:cornflowerblue; */
+  background-image: linear-gradient(to right, rgb(5, 102, 97),rgb(196, 86, 86), rgb(173, 4, 156));
+  color: white;
+}
+
+.nav-item{
+  color: white;
+}
+
+/* #nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} */
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown-menu{
+  background-color: rgb(48, 22, 223);
+  color: white;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+.header{
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+
+nav ul li:hover{
+  background-color:rgb(230, 197, 11);
+}
+
+.nav ul li Link:hover{
+  color: blue;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(#f8f7f6, #f1f5f8, rgb(248, 60, 26));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-right{
+  float: right;
+  padding: 20% 20% 20% 20%;
+  text-align: center;
+}
+
+.header{
+  background-image: linear-gradient(to right, rgb(217, 238, 25), rgb(31, 196, 187),rgb(26, 3, 53));
+}
+
+/* .accordion-header{
+  float: left;
+} */
+
+/* .img1{
+  float: right;
+} */
+
+img{
+    float: right;
+    max-width:fit-content;
+    height: auto; 
+}
+
+.info{
+  overflow: auto;
+}
+
+.card{
+  background-image: conic-gradient(rgb(204, 48, 48), rgb(30, 30, 148));
+}
+
+h5{
+  color: white;
+}
+
+p.card-text{
+  color: white;
+}
+
+div.card-group{
+  background-color: #61dafb;
+}
+
+iframe{
+  float: right;
+}
+
+.contact{
+  color: rgb(9, 4, 88);
+  background-image: conic-gradient(rgb(211, 147, 9), rgb(240, 240, 87));
+  padding: 2% 2% 2% 2%;
+}
